@@ -110,7 +110,7 @@ export function DiscordShowcase() {
         {/* CTA below mockup */}
         <div className="relative z-10 text-center mt-16 px-6">
           <a
-            href="https://whop.com/c/tempotrades/claim"
+            href="https://discord.gg/8Xafhemsj5"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 bg-accent text-background font-bold text-lg rounded-2xl cursor-pointer transition-all hover:scale-[1.03] active:scale-[0.97] glow-green"
