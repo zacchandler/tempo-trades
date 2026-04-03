@@ -5,7 +5,6 @@ import { FluidBackground } from "@/components/ui/fluid-background";
 import { CandlestickChart } from "@/components/ui/candlestick-chart";
 import { BlurStaggerText } from "@/components/ui/blur-stagger-text";
 import { ChevronDown } from "lucide-react";
-import Image from "next/image";
 
 export function Hero() {
   return (
@@ -26,13 +25,12 @@ export function Hero() {
           transition={{ delay: 2.3, duration: 0.5 }}
           className="mb-8"
         >
-          <Image
-            src="/images/logo.jpg"
+          <img
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/logo.jpg`}
             alt="Tempo Trades"
             width={80}
             height={80}
             className="mx-auto rounded-2xl border border-white/10"
-            priority
           />
         </motion.div>
 
