@@ -243,7 +243,7 @@ export function DiscordMockup({ className = "" }: { className?: string }) {
           <div className="w-8 h-[2px] bg-[#35363c] rounded-full mb-1" />
 
           {/* Tempo Trades — active */}
-          <ServerIcon color="#1a1a2e" letter="TT" active imageSrc="/images/logo.jpg" />
+          <ServerIcon color="#1a1a2e" letter="TT" active imageSrc={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/logo.jpg`} />
           <ServerIcon color="#7c3aed" letter="D" />
           <ServerIcon color="#2563eb" letter="FX" />
           <ServerIcon color="#dc2626" letter="P" />

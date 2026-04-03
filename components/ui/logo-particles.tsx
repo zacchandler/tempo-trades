@@ -33,7 +33,7 @@ interface LogoParticlesProps {
 
 export function LogoParticles({
   className = "",
-  imageSrc = "/images/logo.jpg",
+  imageSrc = `${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/logo.jpg`,
   particleCount = 4500,
   logoSize: logoSizeProp,
   color = "oklch(0.75 0.18 155)",

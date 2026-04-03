@@ -78,7 +78,7 @@ export function Story() {
           <div className="hidden lg:flex items-center justify-center relative">
             <div className="relative w-[400px] h-[400px] rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
               <LogoParticles
-                imageSrc="/images/logo.jpg"
+                imageSrc={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/logo.jpg`}
                 logoSize={340}
                 particleCount={5000}
                 repelRadius={60}
