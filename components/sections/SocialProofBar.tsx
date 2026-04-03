@@ -43,7 +43,7 @@ export function SocialProofBar() {
             <p className="text-sm text-text-secondary mt-2">Monthly</p>
           </motion.div>
 
-          {/* $33k Peak Month */}
+          {/* 600+ 5-Star Reviews */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -52,13 +52,12 @@ export function SocialProofBar() {
             className="text-center"
           >
             <NumberTicker
-              target={33}
-              prefix="$"
-              suffix="k"
+              target={600}
+              suffix="+"
               className="text-4xl md:text-5xl font-bold text-text-primary"
               duration={2000}
             />
-            <p className="text-sm text-text-secondary mt-2">Peak Month</p>
+            <p className="text-sm text-text-secondary mt-2">5-Star Reviews</p>
           </motion.div>
 
           {/* 9:30am EST */}
